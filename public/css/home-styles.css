@@ -289,8 +289,9 @@ footer section {
 footer article {
   text-align: center;
   width: 70%;
-  margin: 10px;
-  max-width: 330px;
+  margin: 10px 10px 0 10px;
+  /* max-width: 330px; */
+  padding-bottom: 8px;
   
 }
 
@@ -302,6 +303,10 @@ footer article p {
   color: #1259c3;
   font-size: 3.2rem;
   margin-bottom: 10px;
+}
+
+.copyright {
+  margin: 0 auto;
 }
 
 
@@ -408,6 +413,10 @@ footer article p {
 
   }
 
-  
+  .copyright {
+    margin: 0;
+    text-align: start;
+    padding-left: 20px;
+  }
 
 }
